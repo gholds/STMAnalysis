@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt # For plotting data
 from matplotlib.colors import LogNorm
 
 # For easily converting units
-from pint import UnitRegistry
-ureg = UnitRegistry()
-Q_ = ureg.Quantity
+#import pint 
+#ureg = pint.UnitRegistry()
+#Q_ = ureg.Quantity
 
-ureg.setup_matplotlib() # Allows easier unit conversion when plotting
+#ureg.setup_matplotlib() # Allows easier unit conversion when plotting
